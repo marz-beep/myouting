@@ -955,3 +955,36 @@ color:#ddd;
     letter-spacing:.3px;
 
 }
+
+.review-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-weight: 600;
+    transition: all .25s ease;
+}
+
+.review-btn svg {
+    transition: transform .25s ease;
+}
+
+.review-btn:hover {
+    background: rgba(124, 58, 237, 0.12);
+    border-color: rgba(167, 139, 250, 0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(124, 58, 237, 0.18);
+}
+
+.review-btn:hover svg {
+    transform: translateX(4px);
+}
