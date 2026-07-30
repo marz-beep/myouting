@@ -988,3 +988,36 @@ color:#ddd;
 .review-btn:hover svg {
     transform: translateX(4px);
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.pagination button {
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 10px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.pagination button:hover,
+.pagination .active {
+    background: #FACC15;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#pageNumbers {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
